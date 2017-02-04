@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container-fluid">
+  <center>
+      <h2>Pomodoro Clock</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-offset-3 col-md-3 col-sm-12 col-xs-12">
+          <h4> Break length (mins) </h4>
+          <button class="btn button btn-app" id="btn-break-decr">-</button> <span class="min" id="break-min">2</span> <button class="btn button btn-app" id="btn-break-incr">+</button></div>
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <h4> Session length (mins) </h4>
+          <button class="btn button btn-app" id="btn-session-decr">-</button> <span class="min" id="session-min">2</span> <button class="btn button btn-app" id="btn-session-incr">+</button></div>
+      </div>
+      <center>
+      <div class="row">
+        <div class="clearfix">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h3 id="status-msg">Click on the timer to start it.</h3>
+            <div class="timer">
+              <div class="c100 p0 big center">
+                  <span id="current-time">0</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+              </div>
+            </div>
+            <br/>
+            <span id="help-msg">Click on the timer to pause it. <br/>Changing session/break time length while paused will reset the timer.</span>
+          </div>
+        </div>
+      </div>
+    </center>
+  </center>
+</div>
+<div class="footer"> by <a href="https://id.linkedin.com/in/jacky-efendi-094643a1">jackyef</a>
+    <br/>
+    <a href="https://id.linkedin.com/in/jacky-efendi-094643a1" target="_blank"><button class="button btn "><i class="fa fa-linkedin"></i></button></a>
+    <a href="https://instagram.com/_u/jackyef_"><button class="button btn " target="_blank"><i class="fa fa-instagram"></i></button></a>
+    <a href="https://facebook.com/zhouyongchao"><button class="button btn " target="_blank"><i class="fa fa-facebook"></i></button></a>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
